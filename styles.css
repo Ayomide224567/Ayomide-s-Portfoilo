@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:#2a2f4a;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2f4a;
+    padding: 20px 50px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color:blue;
+  }
+
+  #pro{
+    color:blue;
+  }
+  
+ #ay{
+    text-align: center;
+    background-color: #2a2f4a;;
+    color: aqua;
+    
+ } 
+ h1{
+    font-size: 55px;
+ }
+ p{
+    font-size: 18px;
+ }
+
+ .ay{
+    background-color: #1e1e2f;
+    color:whitesmoke;
+    width: 50%;
+    
+ }
+ .ay>img{
+  max-width:100%;
+ }
+
+ .ayo{
+    font-size: 18px;
+    line-height: 1.8em;
+    max-width:300px
+
+ }
+
+ button{
+    color: aqua;
+    border-radius: 0;
+    background-color:blue;
+     font-size:1.5rem;
+     max-width: 200px;
+       
+ }
+ #posi{
+   padding:20px 0px;
+   margin-right: 20px;
+   display: flex;
+ }
+
+ .square {
+  background-color: #232e3c;
+  color:  aqua;
+  padding: 15px 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-align: left;
+ }
+
+a{
+  color:  aqua;
+  text-decoration: none;
+} 
+a:hover,:visited{
+  color: aqua;
+}
+
+.friyo{
+display:flex;
+justify-content: center;
+gap: 20px;
+background-color: #232e3c;
+padding: 10px 2rem;
+}
+
+
+@media screen and (max-width:600px){
+    .friyo{
+      flex-direction: column;
+      width:1000px
+    }
+}
